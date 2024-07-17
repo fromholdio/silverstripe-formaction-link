@@ -1,0 +1,25 @@
+{
+  "name": "fromholdio/silverstripe-formaction-link",
+  "type": "silverstripe-vendormodule",
+  "description": "A type of FormAction that renders as a link/anchor rather than button or input.",
+  "license": "BSD-3-Clause",
+  "keywords": ["silverstripe", "forms"],
+  "homepage": "https://github.com/fromholdio/silverstripe-formaction-link",
+  "support": {
+    "issues": "https://github.com/fromholdio/silverstripe-formaction-link/issues"
+  },
+  "authors": [{
+    "name": "Luke Fromhold",
+    "homepage": "https://fromhold.io"
+  }],
+  "require": {
+    "silverstripe/cms": "^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fromholdio\\FormActionLink\\": "src/"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
