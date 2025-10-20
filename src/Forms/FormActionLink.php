@@ -18,4 +18,17 @@ class FormActionLink extends FormAction
     {
         return $this->href;
     }
+
+    public function getAttributes()
+    {
+        $attributes = array_diff_key(
+            parent::getAttributes(),
+            [
+                'name' => 'name',
+                'type' => 'type',
+                'value' => 'value',
+            ]
+        );
+        return $attributes;
+    }
 }
